@@ -1,0 +1,49 @@
+body{
+font-family: -apple
+-system,BlinkMacsystemFo
+nt,Segoe UI,Roboto,Oxygen
+-Sans,Ubuntu,Cantarell,
+ Helvetticca Neue,
+  sans-serif;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+.center {
+  align-items: center;
+  justify-content: center;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.paperContent {
+  min-height: 50px;
+  line-height: 50px;
+}
+
+.category {
+  background-color: #FFD54F !important;
+}
+
+.product {
+  background-color: #E3F2FD !important;
+
+}
+.mycart {
+  background-color: #C5CAE9 !important;
+}
+
+.paperContent a {
+  text-decoration: none;
+}
+
+.cart-button {
+  color: grey;
+}
